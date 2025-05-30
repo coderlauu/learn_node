@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    // "declarationMap": true, // 生成map文件
+    "declarationDir": "./dist/type"
+  },
+  "include": ["**/*.ts"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@miaoma-demo/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "types": "dist/type/index.d.ts",
+  "bin": {
+    "mmts": "bin/mmts"
+  },
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./styles.css": "./styles.css"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
